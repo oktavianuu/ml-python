@@ -36,3 +36,17 @@
 
 **More about Scikit-learn**
 It is popular, free and designed for python and provide many algorithms for machine learning. 
+
+**Supervised vs Unsupervised**
+- Supervised: 
+  - this is a ML algorithm that solve a problem based on trained data. This type of algorithm only know how to solve problem based on labeled data. 
+  - two types of supervised learning technique:
+    - regression: predicting continuous value
+    - classification: predicting class label or category
+  - 
+- Unsupervised: this one is a type of ML algorithm that learn by itself. It can solve totally new kind of problem from unseen data. We do not supervise the model, it works on its own to solve a problem. It draws conclusion on UNLABELED data. 
+  - example: 
+    - dimension reduction: reducing redundant feature to make classification easier.
+    - density estimation: explore data to find structure within it.
+    - clustering: grouping data points or objects that are somehow similar.
+**NOTE**: Supervised learning deals with labeled data, unsupervised learning is the opposite. In comparison, unsupervised learning has fewer models and fewer evaluation methods that can be used to ensure that the outcome of the model is accurate.  Unsupervised learning creates less controllable environment as the algorithm creates the outcome for us. 
