@@ -33,7 +33,7 @@
 In simple linear regression, there are only two variable exist. Dependent and independent variable. 
 Simple Linear regression formula:
 $$
-\hat{y} = \theta_0 + \theta_1 + {x}_1
+\hat{y} = \theta_0 + \theta_1{x}_1
 $$
 __Explanation__:
 $\theta_0$ and $\theta_1$ are the parameters of the line we must adjust. Also called the coefficients of linear equations.
@@ -55,5 +55,5 @@ As discussed before $\theta_0$ and $\theta_1$ are the coefficients of the fit li
 2. Then we plug it into the slop equation to find $\theta_1$.
 3. After we find the value of $\theta_1$, we plug the value again to the equation to find the $\theta_0$.
 4. The $\theta_0$ is the bias coeffcient and the $\theta_1$ is the coefficient of $x_1$.
+5. After we find all of the parameters, we can plug all values into the equations.
 
-After we find all of the parameters, we can plug all values into the equations.
