@@ -15,3 +15,24 @@
   - Reducing the data size (PCA)
 - Recomendation systems
   - Recomending items
+
+**Differences between AI, ML and DL**
+- AI tries to make computer intelligent in order to mimic the cognitice function of humans.
+- Machine learning is a branch of AI that deals with statistical parts of AI. It teaches the computer to solve problems by looking at hundreds of thousands of examples, learning from them and solve the same problem in new situations.
+- Deep Learning, a very special fields of machine learning where computers is actually learn and make intelligent decisions on their own. 
+
+**Python Libraries for Machine Learning**
+- **NumPy** 
+  - a math library to work with n-dimensional array. 
+  - used to do computation efficiently and effectively. 
+- **SciPy**
+  - a collection of numerical algorithms and domain specific tool-box, for example, signal processing, statistics and optimization (and much more)
+- **MatPlotlib**
+  - ploting package for 2D and 3D visualization.
+- **Pandas**
+  - high performance and easy to use data strucure.
+  - used to import, manipulate and analyze data.
+  - provides data structure and oprations for manipulating numerical tables and time-series.
+
+**More about Scikit-learn**
+It is popular, free and designed for python and provide many algorithms for machine learning. 
