@@ -35,7 +35,7 @@
   - provides data structure and oprations for manipulating numerical tables and time-series.
 
 **More about Scikit-learn**
-It is popular, free and designed for python and provide many algorithms for machine learning. 
+- It is popular, free and designed for python and provide many algorithms for machine learning. 
 
 **Supervised vs Unsupervised**
 - Supervised: 
