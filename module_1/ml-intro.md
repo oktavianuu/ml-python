@@ -1,0 +1,17 @@
+**Major Machine Learning Techniques**
+- Regression/Estimation
+  - Predicting continuous values
+- Classification
+  - Predicting the item class/category
+- Clustering
+  - Finding the structure of data/association
+- Associations
+  - Associating frequent co-occuring items/events
+- Anomaly detection
+  - discovering abnormal and unusual cases. For example, credit card or fraud detection.
+- Sequence mining
+  - Predicting next event, for example click-stream in websites.
+- Dimension reduction
+  - Reducing the data size (PCA)
+- Recomendation systems
+  - Recomending items
