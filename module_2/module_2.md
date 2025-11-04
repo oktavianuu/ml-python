@@ -40,4 +40,20 @@ $\theta_0$ and $\theta_1$ are the parameters of the line we must adjust. Also ca
 $\theta_1$ = known as slope or gradient of the fitting line
 $\theta_0$ = known as intercept
 
-In other words, we can say that $\hat{y}$ being a function of $x_1$. Moreover, we must calculate the value of the slope and intercept in order to find the best fitted line. This line later will be used to predict the outcome of the incoming $x_1$ data points. 
+In other words, we can say that $\hat{y}$ being a function of $x_1$. Moreover, we must calculate the value of the slope and intercept in order to find the best fitted line. This line later will be used to predict the outcome of the incoming $x_1$ data points. Visually, the fitted line is used to see how differ is our prediction model to the actual value. for example if the distance between the  fitted line and the actual value is far, then the prediction is not accurate, meaning that we need to improve our model. The distance of between the data points with the fitted regression line is called `error` and we measure it, mathematically using `MSE` (Mean Squared Error). In regression, our objective is to minimize the value of `MSE`, the smaller the better which means that all of the distance of each data points to the fitted regression line is small.
+
+The objective of linear regression is to minimize the `MSE` equation and to minimize its value. In order to do it, we must find the best parameters for our line, the value of $\theta_0$ and $\theta_1$.
+If the value of those parameters are so important, then how we can calculate it? How can we find a perfect line? Move it randomly and calculate its MSE everytime we move the line?
+There are two approach for this:
+1. Use mathematic approach
+2. Use an optimization approach
+
+As discussed before $\theta_0$ and $\theta_1$ are the coefficients of the fit line. So here is how we do it:
+
+**Mathematical Approach**
+1. Calculate the average of x ($\bar{x}$) and y ($\bar{y}$).
+2. Then we plug it into the slop equation to find $\theta_1$.
+3. After we find the value of $\theta_1$, we plug the value again to the equation to find the $\theta_0$.
+4. The $\theta_0$ is the bias coeffcient and the $\theta_1$ is the coefficient of $x_1$.
+
+After we find all of the parameters, we can plug all values into the equations.
