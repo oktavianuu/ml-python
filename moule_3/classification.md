@@ -51,8 +51,23 @@ the K nearest neighbors.
 - Leter
 
 #### How do we choose the right K?
-
-
+To find the right K, we do the iterative process. Use different number of K and verify the accuracy of each K using test set.
 
 **Scenario**:
 A telecomunication company trying to analyse and group its customers usage pattern based on demographic data. The target variable has four possible groups: basic service, e-service, plus service and total service. 
+
+### Evaluation Metrics in Classification
+After we build a model, we need to ask how accurate our model is. Evaluation metrics provide a key role in the development of a model, as they provide insight to areas that might require improvement. 
+
+#### Types of Evaluation Metrics
+There are many, but here are some:
+-  Jaccard index
+-  F1-score
+-  Log loss
+
+**Jaccard index**
+- The simplest evaluation metrics
+- Known as jaccard similarity index
+- JI is the size of the intersection divided by the size of the union of two label set. 
+- Example:
+  - for a test set of size 10, with 8 correct predictions, or 8 intersections. The JI would be 0.66.
