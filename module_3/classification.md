@@ -75,3 +75,4 @@ There are many, but here are some:
 
 Knn Illustration
 ![knn](img/knn.png)
+
